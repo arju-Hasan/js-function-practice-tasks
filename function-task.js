@@ -23,3 +23,22 @@ function oddOrEven(num){
        
 }
 oddOrEven(9)
+
+
+// 
+// Task-3
+// Write a function called make_avg() which will take an array of integers and the size of that array and return the average of those values.
+
+function make_avg(markes){
+    let sum = 0;
+    for( let num = 0; num < markes.length; num++){
+        sum += markes[num];
+}
+// return sum;
+let average = sum / markes.length;
+return average;
+
+}
+let averageResult = make_avg([8, 6, 4, 3, 7, 9]);
+console.log(averageResult.toFixed(2))
+
